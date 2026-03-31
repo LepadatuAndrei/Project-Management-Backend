@@ -20,7 +20,8 @@ Backend-ul a fost implementat folosind C# și ASP .NET Core. Lucrul cu baza de d
 
 Sistemul de autorizare a fost implementat folosind tehnologia [JWT](https://www.jwt.io/) (JSON Web Token). Un utilizator poate accesa endpoint-urile protejate ale serverului doar dacă deține un token valid generat de backend în urma autentificării.
 
-## Software Necesar
-- [ASP .NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet)
+**Software Necesar:** [ASP .NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet)
+
+*Pentru accesarea endpoint-urilor protejate este nevoie de autentificare.* Puteți folosi un cont de test cu adresa de email `admin@test.com` și parola `1234`.
 
 **Important:** Dacă serverul nu se poate conecta la baza de date, asigurați-vă că valoarea câmpului `ConnectionString` este validă.
